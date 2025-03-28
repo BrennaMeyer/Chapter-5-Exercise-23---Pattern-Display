@@ -10,6 +10,7 @@ using namespace std;
 void patternA(int min, int max, char symbol);
 void patternB(int min, int max, char symbol);
 
+//main
 int main()
 {
 	const int min = 0,
@@ -25,6 +26,7 @@ int main()
 	return 0;
 }
 
+//pattern A
 void patternA(int min, int max, char symbol) {
 	for (int i = min; i < max;i++)
 	{
@@ -36,6 +38,7 @@ void patternA(int min, int max, char symbol) {
 	}
 }
 
+//Pattern B
 void patternB(int min, int max, char symbol) {
 	for (int i = min; i < max;i++)
 	{
